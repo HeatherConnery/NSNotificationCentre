@@ -14,6 +14,9 @@
 		B683BEB01C0F417C00189A3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B683BEAE1C0F417C00189A3E /* LaunchScreen.storyboard */; };
 		B683BEBB1C0F417C00189A3E /* NotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B683BEBA1C0F417C00189A3E /* NotificationsTests.swift */; };
 		B683BEC61C0F417C00189A3E /* NotificationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B683BEC51C0F417C00189A3E /* NotificationsUITests.swift */; };
+		B683BED51C0F422800189A3E /* URLObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B683BED41C0F422800189A3E /* URLObject.swift */; settings = {ASSET_TAGS = (); }; };
+		B683BED81C0F445D00189A3E /* NSProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B683BED71C0F445D00189A3E /* NSProtocol.swift */; settings = {ASSET_TAGS = (); }; };
+		B683BEDB1C0F458400189A3E /* Moderator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B683BEDA1C0F458400189A3E /* Moderator.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		B683BEC11C0F417C00189A3E /* NotificationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B683BEC51C0F417C00189A3E /* NotificationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsUITests.swift; sourceTree = "<group>"; };
 		B683BEC71C0F417C00189A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B683BED41C0F422800189A3E /* URLObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLObject.swift; sourceTree = "<group>"; };
+		B683BED71C0F445D00189A3E /* NSProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSProtocol.swift; sourceTree = "<group>"; };
+		B683BEDA1C0F458400189A3E /* Moderator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moderator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		B683BEA41C0F417C00189A3E /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				B683BED91C0F454500189A3E /* Utils */,
+				B683BED61C0F443E00189A3E /* Protocol */,
+				B683BED31C0F420900189A3E /* Model */,
 				B683BEA51C0F417C00189A3E /* AppDelegate.swift */,
 				B683BEA71C0F417C00189A3E /* ViewController.swift */,
 				B683BEA91C0F417C00189A3E /* Main.storyboard */,
@@ -123,6 +132,30 @@
 				B683BEC71C0F417C00189A3E /* Info.plist */,
 			);
 			path = NotificationsUITests;
+			sourceTree = "<group>";
+		};
+		B683BED31C0F420900189A3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B683BED41C0F422800189A3E /* URLObject.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B683BED61C0F443E00189A3E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B683BED71C0F445D00189A3E /* NSProtocol.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		B683BED91C0F454500189A3E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B683BEDA1C0F458400189A3E /* Moderator.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B683BEA81C0F417C00189A3E /* ViewController.swift in Sources */,
+				B683BEDB1C0F458400189A3E /* Moderator.swift in Sources */,
+				B683BED51C0F422800189A3E /* URLObject.swift in Sources */,
+				B683BED81C0F445D00189A3E /* NSProtocol.swift in Sources */,
 				B683BEA61C0F417C00189A3E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
